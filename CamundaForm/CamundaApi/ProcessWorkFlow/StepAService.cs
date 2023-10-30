@@ -40,11 +40,12 @@ public class StepAService
                             }
                         },
                     },
-                    //new Instruction()
-                    //{
-                    //    Type = "cancel",
-                    //    ActivityInstanceId = processInfo.ParentActivityInstanceId.Value.ToString()
-                    //}
+                    new Instruction()
+                    {
+                        Type = "cancel",
+                        ActivityId = processInfo.ActivityId,
+                 //       ActivityInstanceId = processInfo.ParentActivityInstanceId.Value.ToString()
+                    }
                 }
         };
         var result = await httpClient.PostAsJsonAsync(uri, start);

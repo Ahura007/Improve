@@ -54,6 +54,7 @@
             BtnStepB.TabIndex = 1;
             BtnStepB.Text = "B";
             BtnStepB.UseVisualStyleBackColor = true;
+            BtnStepB.Click += BtnStepB_Click;
             // 
             // BtnStepC
             // 
@@ -64,6 +65,7 @@
             BtnStepC.TabIndex = 2;
             BtnStepC.Text = "C";
             BtnStepC.UseVisualStyleBackColor = true;
+            BtnStepC.Click += BtnStepC_Click;
             // 
             // BtnStepD
             // 
@@ -74,6 +76,7 @@
             BtnStepD.TabIndex = 3;
             BtnStepD.Text = "D";
             BtnStepD.UseVisualStyleBackColor = true;
+            BtnStepD.Click += BtnStepD_Click;
             // 
             // FrmNextStep
             // 

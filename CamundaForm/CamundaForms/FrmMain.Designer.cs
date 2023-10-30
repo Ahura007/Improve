@@ -35,12 +35,11 @@
             listBox1 = new ListBox();
             BtnDelete = new Button();
             button1 = new Button();
-            BtnEvaluated = new Button();
             SuspendLayout();
             // 
             // BtnGetAllWorkFlow
             // 
-            BtnGetAllWorkFlow.Location = new Point(12, 159);
+            BtnGetAllWorkFlow.Location = new Point(12, 199);
             BtnGetAllWorkFlow.Name = "BtnGetAllWorkFlow";
             BtnGetAllWorkFlow.Size = new Size(148, 34);
             BtnGetAllWorkFlow.TabIndex = 0;
@@ -50,7 +49,7 @@
             // 
             // BtnAuth
             // 
-            BtnAuth.Location = new Point(12, 199);
+            BtnAuth.Location = new Point(12, 239);
             BtnAuth.Name = "BtnAuth";
             BtnAuth.Size = new Size(148, 34);
             BtnAuth.TabIndex = 1;
@@ -60,7 +59,7 @@
             // 
             // BtnStartNewInstance
             // 
-            BtnStartNewInstance.Location = new Point(784, 239);
+            BtnStartNewInstance.Location = new Point(784, 199);
             BtnStartNewInstance.Name = "BtnStartNewInstance";
             BtnStartNewInstance.Size = new Size(134, 34);
             BtnStartNewInstance.TabIndex = 2;
@@ -70,7 +69,7 @@
             // 
             // BtnNextStep
             // 
-            BtnNextStep.Location = new Point(784, 279);
+            BtnNextStep.Location = new Point(784, 239);
             BtnNextStep.Name = "BtnNextStep";
             BtnNextStep.Size = new Size(134, 34);
             BtnNextStep.TabIndex = 3;
@@ -93,7 +92,7 @@
             // 
             // BtnDelete
             // 
-            BtnDelete.Location = new Point(575, 199);
+            BtnDelete.Location = new Point(357, 199);
             BtnDelete.Name = "BtnDelete";
             BtnDelete.Size = new Size(134, 34);
             BtnDelete.TabIndex = 6;
@@ -112,21 +111,11 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // BtnEvaluated
-            // 
-            BtnEvaluated.Location = new Point(784, 199);
-            BtnEvaluated.Name = "BtnEvaluated";
-            BtnEvaluated.Size = new Size(134, 34);
-            BtnEvaluated.TabIndex = 8;
-            BtnEvaluated.Text = "شروع گردش کار";
-            BtnEvaluated.UseVisualStyleBackColor = true;
-            // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(918, 450);
-            Controls.Add(BtnEvaluated);
             Controls.Add(button1);
             Controls.Add(BtnDelete);
             Controls.Add(listBox1);
@@ -149,6 +138,5 @@
         private ListBox listBox1;
         private Button BtnDelete;
         private Button button1;
-        private Button BtnEvaluated;
     }
 }

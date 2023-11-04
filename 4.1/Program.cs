@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics;
+using System.Threading;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace _4._1
@@ -209,6 +210,40 @@ namespace _4._1
 
 
             //6.What is the difference between the Debug and Trace classes?
+            //کلاس‌های «Debug» و «Trace» در C#
+            //  هر دو برای ابزار دقیق   برای بررسی کد هستند، اما فرقهایی هم دارند
+
+            //1. **Debug Class**:
+            // «#if DEBUG» و «#endif»
+            //در این حالت کدهایی که در حالت دیباگ اجرا میشوند در زمان ریلیز اجرا نخواهند شد
+
+            //2. **Trace Class**:
+            //تفاوتی در حالت دیباگ و ریایز وجود ندارد و در هر صورت کو مورد نظر اجرا  میشود
+
+
+            //استفاده از هر دو کلاس در سناریوهای مختلف معمول است:
+            //دیباگ‌ » برای اطلاعات متمرکز بر توسعه‌دهنده و «تریس» برای نظارت و گزارش در سطح تولید.
+
+            // 7.When writing a unit test, what are the three “A”s ? Arrange  Act  Assert
+
+
+            //8. When writing a unit test using xUnit, which attribute must you decorate the test methods with?
+            //[Fact]
+
+            //9. What dotnet command executes xUnit tests?  dotnet test
+
+
+            //10. What statement should you use to rethrow a caught exception named ex without losing the
+            // stack trace?
+            //try
+            //{
+              
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"An exception occurred: {ex.Message}");
+            //    throw ex;
+            //}
 
         }
     }
